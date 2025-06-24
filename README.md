@@ -63,99 +63,6 @@
 - **Catch Data**: Historical squid abundance from jiggler fishermen
 - **Geospatial Data**: Latitude/longitude coordinates for fishing hotspots
 
-## 📦 Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- Node.js 16+ and npm
-- Git
-
-### Backend Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/Lokus-Indian-Squid-Prediction.git
-   cd Lokus-Indian-Squid-Prediction
-   ```
-
-2. **Set up Python environment**
-   ```bash
-   cd src/backend
-   python -m venv venv
-   
-   # On Windows
-   venv\Scripts\activate
-   
-   # On macOS/Linux
-   source venv/bin/activate
-   ```
-
-3. **Install Python dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Start the Flask server**
-   ```bash
-   python app.py
-   ```
-   The backend will be available at `http://localhost:5000`
-
-### Frontend Setup
-
-1. **Navigate to the frontend directory**
-   ```bash
-   cd src/Frontend
-   ```
-
-2. **Install Node.js dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the React development server**
-   ```bash
-   npm start
-   ```
-   The frontend will be available at `http://localhost:3000`
-
-## 🎮 Usage
-
-### Getting Started
-
-1. **Access the Application**: Open your browser and navigate to `http://localhost:3000`
-
-2. **Home Page**: Learn about the project, traditional jigging, and available features
-
-3. **Heatmap Analysis**:
-   - Click "Go to Heatmap" or navigate to `/heatmap`
-   - Select the desired year and month
-   - Click "Predict" to generate the heatmap
-   - View color-coded abundance levels across fishing hotspots
-
-4. **Graph Analysis**:
-   - Click "Go to Graph" or navigate to `/graph`
-   - Select year and month for prediction
-   - View time series graphs showing abundance trends
-   - Compare different hotspot predictions
-
-### Data Input Format
-
-The system expects the following data structure:
-
-```csv
-date,latitude,longitude,squid_abundance_per_kgs,sst,chl,ssh
-2024-01-31,11.1711016,123.4625467,10.234,29.01999328,1.082147,0.531632435
-```
-
-Where:
-- `date`: Date of observation (YYYY-MM-DD format)
-- `latitude`: Geographic latitude coordinate
-- `longitude`: Geographic longitude coordinate  
-- `squid_abundance_per_kgs`: Squid catch rate in kilograms
-- `sst`: Sea Surface Temperature in Celsius
-- `chl`: Chlorophyll concentration
-- `ssh`: Sea Surface Height
 
 ## 🔬 Model Details
 
@@ -185,40 +92,6 @@ The system focuses on the **Northern Iloilo Sea** with the following boundaries:
 - **Primary Fishing Areas**: Estancia, Iloilo and surrounding waters
 - **Hotspot Count**: 19 identified fishing locations
 
-## 📈 API Endpoints
-
-### POST `/predict`
-Generates predictions for specified time periods.
-
-**Request Body:**
-```json
-{
-  "year": 2024,
-  "month": 6
-}
-```
-
-**Response:**
-```json
-{
-  "heatmap_data": [...],
-  "graphs": {...},
-  "predictions": {...}
-}
-```
-
-## 🔧 Configuration
-
-### Environment Variables
-- `FLASK_ENV`: Set to `development` or `production`
-- `CORS_ORIGINS`: Allowed frontend origins
-- `MODEL_PATH`: Path to the trained LSTM model
-
-### Model Parameters
-- **Sequence Length**: 12 time steps
-- **Feature Count**: 33 variables
-- **Hotspot Count**: 19 locations
-- **Prediction Horizon**: Up to 12 months
 
 ## 🤝 Contributing
 
@@ -228,28 +101,21 @@ Generates predictions for specified time periods.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Team
 
-- **Lead Developer**: [Your Name]
-- **Data Scientists**: [Team Members]
-- **Fishery Experts**: Local jiggler fishermen from Estancia, Iloilo
-- **Research Partners**: [Institution Names]
+Lokus was developed by B.S. Computer Science students at West Visayas State University for their undergraduate thesis.
 
-## 🙏 Acknowledgments
+- Regino C. Gallena
+- Kyla Joy O. Rapita
+- Journey Mariz J. Sermonia
+- Aaron Raif B. Torres
 
-- **Local Fishermen**: For providing valuable catch data and traditional knowledge
-- **Research Institutions**: For environmental data and technical support
-- **Open Source Community**: For the excellent tools and libraries used in this project
 
 ## 📞 Support
 
 For questions, issues, or contributions:
-- **Issues**: [GitHub Issues](https://github.com/yourusername/Lokus-Indian-Squid-Prediction/issues)
-- **Email**: [your.email@example.com]
+- **Email**: [Lokus2025@gmail.com]
 - **Documentation**: See the `docs/` folder for detailed user manuals
 
 ## 🔮 Future Enhancements
