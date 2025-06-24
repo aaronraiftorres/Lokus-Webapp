@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none; /* Remove unnecessary text-decoration */
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f0f0f0;
+}
+
+.logo {
+  flex: 0 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end; /* Align navigation to the right */
+  align-items: center;
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin: 0 1rem; /* Spacing between navigation links */
+}
+
+.navigation a {
+  text-decoration: none; /* Redundant here */
+  color: #333;
+  font-weight: bold;
+  padding: 10px; /* Add padding for visual separation */
+  border-radius: 4px; /* Add subtle rounded corners */
+  transition: background-color 0.2s ease-in-out; /* Add hover effect */
+}
+
+.navigation a:hover {
+  background-color: #f5f5f5; /* Background color on hover */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black; /* Keep font color black */
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px; /* Subtle rounded corners */
+  position: relative; /* Required for underline effect */
+  display: inline-block; /* For proper spacing and alignment */
+  transition: color 0.3s ease-in-out; /* Smooth text color transition */
+}
+
+/* Add Underline Animation */
+.navigation a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: black;
+  transition: width 0.3s ease-in-out; /* Smooth underline growth */
+}
+
+/* Hover Effect */
+.navigation a:hover {
+  color: #007BFF; /* Change text color on hover */
+}
+
+.navigation a:hover::after {
+  width: 100%; /* Expand the underline */
+}
+
+/* Optional Active Link Style */
+.navigation a.active {
+  color: #007BFF;
+}
+
+/* Main content styles */
+main {
+  padding: 1rem 2rem;
+}
