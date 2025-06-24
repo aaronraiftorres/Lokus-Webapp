@@ -17,30 +17,6 @@
 - **Geospatial Analysis**: Location-based predictions for optimal fishing areas
 - **Real-time Data Processing**: Integration of environmental and catch data
 
-## 🏗️ Architecture
-
-The project follows a modern web application architecture with separate frontend and backend components:
-
-```
-Lokus-Indian-Squid-Prediction/
-├── src/
-│   ├── backend/           # Flask API server
-│   │   ├── app.py         # Main Flask application
-│   │   ├── locus.csv      # Historical squid and environmental data
-│   │   ├── LOWYES.h5      # Trained LSTM model
-│   │   ├── hotspot_metadata.csv  # Fishing hotspot information
-│   │   └── requirements.txt      # Python dependencies
-│   ├── Frontend/          # React web application
-│   │   ├── Home.js        # Landing page component
-│   │   ├── Heatmap.js     # Interactive heatmap visualization
-│   │   ├── Graph.js       # Time series graph component
-│   │   ├── About.js       # About page component
-│   │   └── style.css      # Styling and animations
-│   └── Hardware/          # Additional React components
-├── assets/                # Static assets (images, fonts, etc.)
-└── docs/                  # Documentation and user manuals
-```
-
 ## 🚀 Features
 
 ### 🔥 Interactive Heatmap
