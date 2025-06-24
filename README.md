@@ -1,3 +1,6 @@
+![image alt](https://github.com/aaronraiftorres/Lokus-Webapp/blob/402664644f18ed0defe45052fcf40c112d9438e2/LOKUS.jpg)
+
+
 # 🦑 Lokus: Indian Squid Prediction System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
