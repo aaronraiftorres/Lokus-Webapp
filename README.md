@@ -1,12 +1,7 @@
 ![image alt](https://github.com/aaronraiftorres/Lokus-Webapp/blob/402664644f18ed0defe45052fcf40c112d9438e2/LOKUS.jpg)
 
 
-# 🦑 Lokus: Indian Squid Prediction System
-
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![React](https://img.shields.io/badge/React-18.0+-blue.svg)](https://reactjs.org/)
-[![Flask](https://img.shields.io/badge/Flask-3.0+-green.svg)](https://flask.palletsprojects.com/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16+-orange.svg)](https://tensorflow.org/)
+# Lokus: Indian Squid Prediction System
 
 ## 📖 Overview
 
