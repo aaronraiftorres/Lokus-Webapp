@@ -123,14 +123,14 @@ For questions regarding this disclaimer, software usage, or permission requests,
 West Visayas State University – College of Information and Communications Technology
 
 **Project Authors:**
-[Contact information to be provided by the authors]
+- Email: [Lokus2025@gmail.com]
 
 ---
 
 ### Acceptance of Terms
 
 **By using this software and documentation, you acknowledge that you have:**
-1. Read and understood this disclaimer
+1. Read and understand this disclaimer
 2. Accepted the limitations and conditions stated herein
 3. Agreed to use the system responsibly and ethically
 4. Understood the academic and research-only nature of the application
