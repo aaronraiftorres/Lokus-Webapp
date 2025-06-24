@@ -93,15 +93,6 @@ The system focuses on the **Northern Iloilo Sea** with the following boundaries:
 - **Hotspot Count**: 19 identified fishing locations
 
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-
 ## 👥 Team
 
 Lokus was developed by B.S. Computer Science students at West Visayas State University for their undergraduate thesis.
@@ -117,15 +108,6 @@ Lokus was developed by B.S. Computer Science students at West Visayas State Univ
 For questions, issues, or contributions:
 - **Email**: [Lokus2025@gmail.com]
 - **Documentation**: See the `docs/` folder for detailed user manuals
-
-## 🔮 Future Enhancements
-
-- [ ] Real-time data integration
-- [ ] Mobile application development
-- [ ] Advanced visualization options
-- [ ] Machine learning model improvements
-- [ ] Multi-species prediction capabilities
-- [ ] Climate change impact analysis
 
 ---
 
