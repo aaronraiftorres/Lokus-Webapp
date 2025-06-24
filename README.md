@@ -104,7 +104,7 @@ Lokus was developed by B.S. Computer Science students at West Visayas State Univ
 ## 📞 Support
 
 For questions, issues, or contributions:
-- **Email**: [Lokus2025@gmail.com]
+- **Email**: [lokus.indiansquid@gmail.com]
 - **Documentation**: See the `docs/` folder for detailed user manuals
 
 ---
